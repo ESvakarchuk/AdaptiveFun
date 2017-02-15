@@ -1,0 +1,89 @@
+@media screen and (max-width: 320px) {
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .five,
+  .six,
+  .seven,
+  .eight {
+    height: 110px;
+  }
+
+  .my-background {
+      height: 300px;
+  }
+}
+
+@media screen and (min-width: 321px) {
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .five,
+  .six,
+  .seven,
+  .eight {
+    height: 210px;
+  }
+
+  .my-background {
+      height: 450px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .five,
+  .six,
+  .seven,
+  .eight {
+    height: 250px;
+  }
+
+}
+
+body{
+  background-color: black;
+}
+
+.my-background {
+  background: url('../img/1.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.first {
+  background: url('../img/2.gif') no-repeat center center;
+  background-size: cover;
+}
+.second {
+  background: url('../img/3.gif') no-repeat center center;
+  background-size: cover;
+}
+.third {
+  background: url('../img/4.gif') no-repeat center center;
+  background-size: cover;
+}
+.fourth {
+  background: url('../img/5.gif') no-repeat center center;
+  background-size: cover;
+}
+.five {
+  background: url('../img/9.gif') no-repeat center center;
+  background-size: cover;
+}
+.six {
+  background: url('../img/13.gif') no-repeat center center;
+  background-size: cover;
+}
+.seven {
+  background: url('../img/8.gif') no-repeat center center;
+  background-size: cover;
+}
+.eight {
+  background: url('../img/6.gif') no-repeat center center;
+  background-size: cover;
+}
